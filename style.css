@@ -28,17 +28,32 @@ nav li {
     column-count: 2;
     column-gap: 5px;
 }
+@media(max-width: 460px;) {
+    .row {
+        padding-top: 40px;
+    }
+}
 .panel-primary  {
     text-align: center;
     height: 850px;
     border-radius: 4px;
     border: 3px solid lightskyblue;
 }
+@media(max-width: 460px;) {
+    .panel-primary {
+        height: fit-content;
+    }
+}
 .panel-secondary  {
     text-align: center;
     height: 850px;
     border-radius: 6px;
     border: 3px solid lightskyblue;
+}
+@media(max-width: 600px;) {
+    .panel-secondary {
+        height: fit-content;
+    }
 }
 .panel-heading {
     font-size: 25px;
@@ -51,7 +66,7 @@ nav li {
     font-size: 20px;
 }
 .container {
-    width: 100%;
+    max-width: 100%;
     height: 60px;
     background-color: sandybrown;
     border: 3px solid royalblue;
@@ -75,11 +90,21 @@ nav li {
     border: 2px solid lightcoral;
     border-radius: 6px;
 }
+@media(max-width: 460px;) {
+    .panel1 {
+        height: fit-content;
+    }
+}
 .panel2 {
     height: 400px;
     text-align: center;
     border: 2px solid lightcoral;
     border-radius: 6px;
+}
+@media(max-width: 460px;) {
+    .panel2 {
+        height: fit-content;
+    }
 }
 .panel-heading1 {
     height: 60px;
