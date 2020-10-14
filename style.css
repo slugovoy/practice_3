@@ -1,3 +1,6 @@
+html {
+    font-size: 10px;
+}
 #navbar {
     position: fixed;
     width: 100%;
@@ -9,7 +12,7 @@
 }
 h1 {
     text-align: center;
-    font-size: 40px ;
+    font-size: 4rem ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
     margin: auto;
@@ -27,32 +30,40 @@ nav li {
     padding-top: 60px;
     column-count: 2;
     column-gap: 5px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    margin: 0px;
 }
 @media(max-width: 460px;) {
     .row {
-        padding-top: 40px;
+        /*display: flex;*/
+        padding-top: 20px;
+        margin: 0px;
     }
 }
 .panel-primary  {
     text-align: center;
-    height: 850px;
+    height: auto;
     border-radius: 4px;
     border: 3px solid lightskyblue;
 }
 @media(max-width: 460px;) {
     .panel-primary {
-        height: fit-content;
+        height: 800px;
+        line-height: 1.2;
     }
 }
 .panel-secondary  {
     text-align: center;
-    height: 850px;
+    height: auto;
     border-radius: 6px;
     border: 3px solid lightskyblue;
 }
-@media(max-width: 600px;) {
+@media(max-width: 460px;) {
     .panel-secondary {
-        height: fit-content;
+        height: 800px;
+        line-height: 1.2;
     }
 }
 .panel-heading {
@@ -85,25 +96,25 @@ nav li {
     column-gap: 5px;
 }
 .panel1 {
-    height: 400px;
+    height: auto;
     text-align: center;
     border: 2px solid lightcoral;
     border-radius: 6px;
 }
 @media(max-width: 460px;) {
     .panel1 {
-        height: fit-content;
+        height: auto;
     }
 }
 .panel2 {
-    height: 400px;
+    height: auto;
     text-align: center;
     border: 2px solid lightcoral;
     border-radius: 6px;
 }
 @media(max-width: 460px;) {
     .panel2 {
-        height: fit-content;
+        height: auto;
     }
 }
 .panel-heading1 {
@@ -123,5 +134,41 @@ nav li {
 }
 .imgof:hover {
     transform: scale(2);
+}
+.row2 {
+    padding-top: 30px;
+    column-count: 2;
+    column-gap: 5px;
+}
+.panel3 {
+    height: auto;
+    text-align: center;
+    border: 2px solid lightcoral;
+    border-radius: 6px;
+}
+@media(max-width: 460px;) {
+    .panel3 {
+        height: auto;
+    }
+}
+.panel4 {
+    height: auto;
+    text-align: center;
+    border: 2px solid lightcoral;
+    border-radius: 6px;
+}
+@media(max-width: 460px;) {
+    .panel4 {
+        height: auto;
+    }
+}
+#footer {
+    position: relative;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 3rem;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
